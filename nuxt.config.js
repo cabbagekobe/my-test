@@ -42,7 +42,7 @@ export default {
   },
 
   router: {
-    base: '/my-nuxt-project/'
+    base: '/my-test/'
   },
 
   generate: {
