@@ -41,11 +41,9 @@ export default {
   build: {
   },
 
+  target: 'static',
+
   router: {
     base: '/my-test/'
-  },
-
-  generate: {
-    dir: 'docs'
-  },
+  }
 }
