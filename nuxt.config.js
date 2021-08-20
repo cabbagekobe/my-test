@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 export default {
   ssr: false,
 
@@ -46,5 +48,20 @@ export default {
 
   router: {
     base: '/my-test/'
+  },
+
+  generate: {
+    async routes() {
+      const posts = await axios
+      .get('https://jsonplaceholder.typicode.com/posts')
+      .then((res) =>
+        res.data.map((content) => ({
+              route: `/${content.id}`,
+              payload: content
+        }))
+      )
+
+      return posts
+    }
   }
 }
