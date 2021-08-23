@@ -34,10 +34,10 @@
           <img class="works__container--line" src="/img/line01.svg" alt="">
           <div class="works__inner">
             <a class="works__imgWrap" href="http://kai-you.co.jp/works/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%ab%e3%83%9f%e3%82%ab-tvcm/" target="_blank">
-              <img class="works__inner--img" src="./img/works01.jpg" alt="">
+              <img class="works__inner--img" src="~/assets/img/works01.jpg" alt="">
             </a>
             <div class="works__morebtn">
-              <a target="_blank" href="http://kai-you.co.jp/works/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%ab%e3%83%9f%e3%82%ab-tvcm/"><img src="./img/more-btn.svg" alt=""></a>
+              <a target="_blank" href="http://kai-you.co.jp/works/%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be%e3%83%ab%e3%83%9f%e3%82%ab-tvcm/"><img src="/img/more-btn.svg" alt=""></a>
             </div>
             <div class="works__txt">
               <p class="works__txt--name">キミは何色？2019編</p>
@@ -47,13 +47,13 @@
           </div>
         </div>
         <div class="works__container">
-          <img class="works__container--line" src="./img/line02.svg" alt="">
+          <img class="works__container--line" src="/img/line02.svg" alt="">
           <div class="works__inner">
             <a class="works__imgWrap" href="http://kai-you.co.jp/works/%e3%81%95%e3%81%aa%e3%82%8a-%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b7%e3%83%a3%e3%83%ab%e3%82%b5%e3%82%a4%e3%83%88/" target="_blank">
-              <img class="works__inner--img" src="./img/works02.jpg" alt="">
+              <img class="works__inner--img" src="/img/works02.jpg" alt="">
             </a>
             <div class="works__morebtn">
-              <a target="_blank" href="http://kai-you.co.jp/works/%e3%81%95%e3%81%aa%e3%82%8a-%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b7%e3%83%a3%e3%83%ab%e3%82%b5%e3%82%a4%e3%83%88/"><img src="./img/more-btn.svg" alt=""></a>
+              <a target="_blank" href="http://kai-you.co.jp/works/%e3%81%95%e3%81%aa%e3%82%8a-%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b7%e3%83%a3%e3%83%ab%e3%82%b5%e3%82%a4%e3%83%88/"><img src="/img/more-btn.svg" alt=""></a>
             </div>
             <div class="works__txt">
               <p class="works__txt--name">sanari official site</p>
@@ -63,13 +63,13 @@
           </div>
         </div>
         <div class="works__container">
-          <img class="works__container--line" src="./img/line01.svg" alt="">
+          <img class="works__container--line" src="/img/line01.svg" alt="">
           <div class="works__inner">
             <a class="works__imgWrap" href="http://kai-you.co.jp/works/%e3%83%a4%e3%83%95%e3%83%bc%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-csr%e3%82%b5%e3%82%a4%e3%83%88/" target="_blank">
-              <img class="works__inner--img" src="./img/works03.jpg" alt="">
+              <img class="works__inner--img" src="/img/works03.jpg" alt="">
             </a>
             <div class="works__morebtn">
-              <a target="_blank" href="http://kai-you.co.jp/works/%e3%83%a4%e3%83%95%e3%83%bc%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-csr%e3%82%b5%e3%82%a4%e3%83%88/"><img src="./img/more-btn.svg" alt=""></a>
+              <a target="_blank" href="http://kai-you.co.jp/works/%e3%83%a4%e3%83%95%e3%83%bc%e6%a0%aa%e5%bc%8f%e4%bc%9a%e7%a4%be-csr%e3%82%b5%e3%82%a4%e3%83%88/"><img src="/img/more-btn.svg" alt=""></a>
             </div>
             <div class="works__txt">
               <p class="works__txt--name">ヤフー株式会社 CSRサイト</p>
