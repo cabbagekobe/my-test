@@ -1,5 +1,5 @@
 {
-  "name": "my-test",
+  "name": "mill.kai-you.co.jp",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,14 +7,18 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "webserver": "http-server ./dist -o -p 8888"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "http-server": "^13.0.0",
+    "nuxt": "^2.15.7",
+    "vue2-smooth-scroll": "^1.5.0"
   },
   "devDependencies": {
-    "push-dir": "^0.4.1"
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "sass-loader": "10.2.0",
+    "node-sass": "4.14.1"
   }
 }

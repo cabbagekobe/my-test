@@ -1,7 +1,6 @@
-# my-test
+# mill.kai-you.co.jp
 
 ## Build Setup
-
 ```bash
 # install dependencies
 $ npm install
@@ -12,9 +11,6 @@ $ npm run dev
 # build for production and launch server
 $ npm run build
 $ npm run start
-
-# generate static project
-$ npm run generate
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
@@ -67,3 +63,16 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+
+## 追記
+### sass-loaderのバージョンについて
+ローカルマシンのNode.js 14.17.5で開発しています。こことバージョンの差異でビルド時にトラブルが起きるようなのでsass-loaderのバージョンについては注意が必要そうです。
+
+### smooth-scroll
+smooth-scrollの実装のためvue2-smooth-scrollを導入している
+
+### index.htmlの動作確認
+`npm run generate`で生成されたindex.htmlはそのままのディレクトリ構成だと画像・JS周りのリソースが読み込めないようです。
+
+ローカル環境では`npm run webserver`でサーバー起動を行い、「http://0.0.0.0:8888/」から確認できます。
